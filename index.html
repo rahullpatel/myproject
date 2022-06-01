@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rhl</title>
+    <style>
+      body {
+        width: 100%;
+        background-color: rgb(243, 248, 194);
+        
+      }
+
+      .head {
+        position: relative;
+        left: 30px;
+        bottom: 9px;
+      }
+      img {
+        position: relative;
+        bottom: 57px;
+      }
+      .heading {
+        width: 100%;
+        background-color: aliceblue;
+        border: 2px solid rgb(247, 237, 237);
+        margin: 2px;
+        height: 50px;
+      }
+      .list {
+        position: relative;
+        bottom: 118px;
+        left: 1200px;
+        padding: 15px;
+        display: flex;
+        list-style: none;
+        
+      }
+      .container {
+        width: 100%;
+        border: 2px solid rgb(247, 237, 237);
+        height: 500px;
+        margin: 0px;
+        background-color: rgb(247, 237, 237);
+      }
+      .container img {
+        height: 400px;
+        width: 60%;
+        position: relative;
+        top: 50px;
+        left: 20px;
+      }
+      .span {
+        color: rgb(196, 186, 186);
+      }
+      .learn {
+        position: relative;
+        left: 950px;
+        bottom: 250px;
+        font-size: 20px;
+        width: 350px;
+        margin-left: 30px;
+      }
+      .button {
+        color: white;
+        background-color: darkgrey;
+        width: 237px;
+        height: 50px;
+        font-size: 30px;
+      }
+      .button:hover{
+        background-color: cadetblue;
+        color: black;
+      }
+      .container2 {
+        width: 100%;
+        height: 500px;
+        border: 2px solid rgb(247, 237, 237);
+        background-color: whitesmoke;
+      }
+      .container2 img {
+        width: 50%;
+        height: 300px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+      }
+      .container2 .main {
+        position: relative;
+        top: 32px;
+        left: 10px;
+      }
+      .span2 {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .container2 .col {
+        position: relative;
+        left: 750px;
+        bottom: 467px;
+      }
+      .container2 .col .col1 {
+        width: 40%;
+        height: 145px;
+        border: 2px solid rgb(247, 237, 237);
+        margin: 3px;
+      }
+      .container2 .col .col2 {
+        width: 40%;
+        height: 145px;
+        border: 2px solid rgb(247, 237, 237);
+        margin: 3px;
+      }
+      .container2 .col .col3 {
+        width: 40%;
+        height: 145px;
+        border: 2px solid rgb(247, 237, 237);
+        margin: 3px;
+      }
+      .col .col1 img {
+        width: 35%;
+        height: 120px;
+      }
+      .col1-content {
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0.6;
+      }
+
+      .col1 .read {
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(81, 236, 81);
+        line-height: 0.6;
+      }
+      .contentspan {
+        color: grey;
+      }
+      .col .col2 img {
+        width: 35%;
+        height: 120px;
+      }
+      .col2-content {
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0.6;
+      }
+      .col2 .read1 {
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(81, 236, 81);
+        line-height: 0.6;
+      }
+      .contentspan1 {
+        color: grey;
+      }
+      .col .col3 img {
+        width: 35%;
+        height: 120px;
+      }
+      .col3-content {
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0.6;
+      }
+      .col3 .read2 {
+        position: relative;
+        left: 250px;
+        bottom: 90px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(81, 236, 81);
+        line-height: 0.6;
+      }
+      .contentspan2 {
+        color: grey;
+      }
+      /* container 3 */
+      .container3 {
+        width: 100%;
+        height: 850px;
+        border: 2px solid rgb(230, 226, 226);
+        background-color: rgb(247, 237, 237);
+      }
+      /* container3 - row1 */
+      .container3 .row1{            
+          width: 80%;
+          height: 300px;;
+          border: 2px solid rgb(247, 237, 237);
+          position: relative;
+          left: 110px;
+          top: 27px;
+        }
+        .container3 .row1 .col1{
+            width: 33%;
+            border: 1px solid rgb(247, 237, 237);
+            height: 300px;
+            
+        }
+        
+        .container3 .row1 .col2{
+            width: 33%;
+    border: 1px solid rgb(247, 237, 237);
+    position: relative;
+    left: 360px;
+    bottom: 301px;
+    height: 300px;
+        }
+        .container3 .row1 .col3{
+            width: 33%;
+            border: 1px rgb(247, 237, 237);
+            position: relative;
+            left: 719px;
+            bottom: 603px;
+            height: 300px;
+        }
+ /* container3 row1 col1 img */
+        .container3 .row1 .col1 img {
+            width: 100%;
+            position: relative;
+            top: 1px;
+            left: 1px;
+        }
+        .container3 .row1 .col2 img {
+            width: 100%;
+            position: relative;
+            top: 0px;
+            left: 0;
+        }
+        .container3 .row1 .col3 img {
+            width: 100%;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        /* row1 col1 content */
+        .row1 .col1-content{
+            
+            position: relative;
+            left: 48px;
+            top: -12px;
+            line-height: 1;
+        }
+        .start{
+            position: relative;
+    left: 520px;
+    font-size: x-large;
+    top: 30px;
+
+
+        }
+        .row1 .col2-content{
+            
+            position: relative;
+    left: 17px;
+    top: -21px;
+    line-height: 1
+        }
+        .row1 .col3-content{
+            
+            position: relative;
+            left: 48px;
+            top: -12px;
+            line-height: 1;
+        }
+        .row1-col1span{
+            color: grey;
+        }
+        .row1-col2span{
+            color: grey;
+        }
+        .row1-col3span{
+            color: grey;
+        }
+
+        /* container 3 row 2 */
+
+        .container3 .row2{
+            width: 100%;
+    height: 300px;
+    border: 2px solid rgb(247, 237, 237);
+    position: relative;
+    left: -1px;
+    bottom: 591px;
+        }
+        .container3 .row2 .col1{
+            width: 33%;
+            border: 1px solid rgb(247, 237, 237);
+            height: 300px;
+        }
+
+        .container3 .row2 .col2{
+            width: 33%;
+    border: 1px solid rgb(247, 237, 237);
+    position: relative;
+    left: 360px;
+    bottom: 302px;
+    height: 300px;
+        }
+        .container3 .row2 .col3{
+            width: 33%;
+    border: 1px solid rgb(247, 237, 237);
+    position: relative;
+    left: 719px;
+    bottom: 604px;
+    height: 300px;
+        }
+        /* container3 row2 col1 img */
+        .container3 .row2 .col1 img{
+            position: relative;
+    top: 2px;
+        }
+       .container3 .row2-col1-content{
+        position: relative;
+    left: 15px;
+    bottom: 7px;
+    font-weight: bold;
+}
+.container3 .row2-col2span{
+    font-weight: bold;
+    color: grey;
+}
+.container3 .row2 .col2 img{
+            position: relative;
+            top: 2px;
+}
+.container3 .row2 .col img{
+            position: relative;
+            top: 2px;
+}
+/* container4 start here  */
+.container4{
+    width: 100%;
+    border: 1px solid rgb(247, 237, 237);
+    height: 650px;
+    background-color: rgb(245, 239, 239);
+}
+.heading4{
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    left: 500px;
+}
+.video{
+    position: relative;
+    top: 30px;
+    right: -5px;
+}
+.video-content{
+    position: relative;
+    left: 53px;
+
+}
+.video-row{
+    position: relative;
+    left: 850px;
+    bottom: 534px;
+    border: 1px solid rgb(247, 237, 237);
+    width: 34%;
+    height: 170px;
+    background-color: rgb(223, 221, 221);
+
+}
+.container4 .video-row img{
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+
+}
+.container4 .video-content-1{
+    width: 195px;
+    position: relative;
+    left: 210px;
+    bottom: 160px;
+
+}
+.videospan{
+    color: grey;
+    font-size: 17px;
+}
+.video-row .video-row2{
+   border:  1px solid rgb(247, 237, 237);
+   background-color: rgb(245, 238, 238);
+   height: 170px;
+   position: relative;
+   bottom: 118px
+   
+}
+.container4 .video-row2 img{
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 12px;
+}
+.container4 .video-content-2 {
+    position: relative;
+    left: 200px;
+    bottom: 140px;
+}
+.video-content2span{
+    color: grey;
+}
+.footer{
+    width: 100%;
+    height: 20px;
+    border: 1px solid rgb(247, 237, 237);
+    position: relative;
+    bottom: 125px;
+    right: 6px;
+    height: 30px;
+    background-color: rgb(245, 243, 243);
+}
+.footer-content{
+
+    position: relative;
+    left: 55px;
+    top: 6px;
+
+}
+
+</style>
+  </head>
+  <body>
+    <div class="heading">
+      <h2 class="head">colmar<span class="span">academy</span></h2>
+      <img
+        src="./capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg"
+      />
+      <ul class="list">
+        <li>Online</li>
+        <li>Signin</li>
+        <li>Offline</li>
+      </ul>
+    </div>
+    <div class="container" id="containerid">
+      <img
+        src="./capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg"
+      />
+      <div class="learn">
+        Learn something<br />
+        new eveer day<br /><br />
+        Lorem ipsum dolor sit amet<br />
+        consectetur adipisicing elit<br /><br />
+        <button class="button">Start here</button>
+      </div>
+    </div>
+    <div class="container2" id="container2id">
+      <img
+        src="./capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg"
+      />
+      <div class="main" id="mainid">
+        <span class="span2"> It doesn't hurt to keep practising</span>
+        <br /><br />"Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Totam debitis, expedita pariatur<br />
+        quia veritatis soluta exercitationem doloremque suscipit necessitatibus
+        magni odio asperiores<br />
+        adipisci enim, et itaque recusandae aspernatur harum fugit".<br /><br />Emanuel,
+        Sr Strategist at Hiring.com
+        <div class="col" id="colid">
+          <div class="col1" id="col1id">
+            <img
+              src="./capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg"
+            />
+            <div class="col1-content" id="col1-contentid">
+              Orientation date<br /><br /><span class="contentspan">
+                10/11 & 10/12: 8am-3pm</span
+              >
+            </div>
+            <br />
+            <div class="read" id="readid"><a href="">Read more</a></div>
+          </div>
+          <div class="col2" id="col2id">
+            <img
+              src="./capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg"
+            />
+            <div class="col2-content">
+              Our campus<br /><br /><span class="contentspan1"
+                >which campus is close by you</span
+              >
+            </div>
+            <br />
+            <div class="read1"><a href="">Read more</a></div>
+          </div>
+          <div class="col3" id="col3id">
+            <img
+              src="./capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg"
+            />
+            <div class="col3-content">
+              Our guest lecture<br /><br /><span class="contentspan2"
+                >Join a keynote with Olive Sack<br /><br />about music in
+                medical treatment</span
+              >
+            </div>
+            <br />
+            <div class="read2"><a href="">Read more</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container3" id="container3id">
+         <div class="start"><h2>Start Learning</h2></div>
+        <div class="row1">
+           
+            <div class="col1">
+                <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-software.jpg">
+                <div class="col1-content"><p>Software engineering<br><span class="row1-col1span">Course<br>Web Developement,Mobile Developement,iOT,APIs</span></div>
+            </div>
+            <div class="col2"> 
+                <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-data.jpg">
+                <div class="col2-content"><p>Computer art<br><span class="row1-col2span">Course<br>Imaging & Design,Web Design,Motion Graphics & Visual Effects,Computer Animation</span></div>
+                </div>
+                <div class="col3">
+                    <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-design.jpg">
+                    <div class="col3-content"><p>Design<br><span class="row1-col3span">Course<br>User Experience Dsign,User Research,Visual design</span></div>
+                </div>
+                <div class="row2">
+                    <div class="col1">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-data.jpg">
+                        <div class="row2-col1-content"><p>Data<br><span class="row2-col2span">Course<br>Data Science,Big Data,SQL & Data Visualisation</span></div>
+                    </div>
+                    <div class="col2">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-business.jpg">
+                        <div class="row2-col1-content"><p>Business<br><span class="row2-col2span">Course<br>Product Developement,Business Developement,Startup</span></div>
+                        </div>
+        
+                    <div class="col3">
+                        <img src="./capstone_colmar_assets/capstone_colmar_assets/images/course-marketing.jpg">
+                        <div class="row2-col1-content"><p>Marketing<br><span class="row2-col2span">Course<br>Analytics,Content Marketing,Mobile Marketing</span></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container4">
+                    <div class="heading4">Thesis exhibit</div>
+                    <div class="video"><video src="./capstone_colmar_assets/capstone_colmar_assets/videos/thesis.mp4" controls autoplay loop width="60%" height="
+                        400px">video/MP4</video>
+                     <div class="video-content"><h3>Reimagine urban</h3><br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio maiores quasi amet tempore. Non rerum fugiat fugit,<br> excepturi eius voluptate dignissimos dolorum nostrum, cum nulla illum, recusandae corrupti? Architecto, quis.</div>
+                     <div class="video-row">
+                         <div class="video-row1">
+                             <img src="./capstone_colmar_assets/capstone_colmar_assets/images/thesis-fisma.jpg">
+                         </div>
+                         <div class="video-content-1"><h2>Fisma: Design and Protype<br><span class="videospan"> showcase of new prototype product</span></h2></div>
+                         <div class="video-row2">
+                             <img src="./capstone_colmar_assets/capstone_colmar_assets/images/thesis-now-and-then.jpg">
+                             <div class="video-content-2"><h2>Now and Then</h2><br><span class="video-content2span">Research study about New York</span></div>
+                         </div>
+                         </div>
+                         <div class="footer">
+                             <div class="footer-content">
+                                 Copy right &copy;2022      Rahul patel
+                             </div>
+                         </div>
+                     </div>   
+                    </div>
+                </div>
+            </div>
+            </div>
+       
+    </div>
+</html>
